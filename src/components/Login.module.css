@@ -42,7 +42,7 @@
   color: #000000;
 }
 
-/* .form {
+.form {
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -74,6 +74,20 @@
 
 .field input::placeholder {
   color: #b0b0b0;
+}
+
+.labelRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.forgot {
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  color: #1a237e;
+  text-decoration: none;
 }
 
 .checkbox {
@@ -159,7 +173,7 @@
 .bottomText a {
   color: #2f5de4;
   text-decoration: none;
-} */
+}
 
 /* Right Panel*/
 
