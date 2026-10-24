@@ -32,6 +32,25 @@ function Login() {
 
                         <button type="submit" className={styles.submit}>Login</button>
                     </form>
+
+                    <div className={styles.divider}>
+                        <span>or</span>
+                    </div>
+
+                    <div className={styles.social}>
+                        <button type="button" className={styles.socialBtn}>
+                            <img src={googleLogo} alt="" />
+                            Sign in with Google
+                        </button>
+                        <button type="button" className={styles.socialBtn}>
+                            <img src={appleLogo} alt="" />
+                            Sign in with Apple
+                        </button>
+                    </div>
+
+                    <p className={styles.bottomText}>
+                        Don&rsquo;t have an account? <a href="#">Sign Up</a>
+                    </p>
                 </div>
             </section>
 
