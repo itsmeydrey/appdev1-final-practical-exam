@@ -2,6 +2,7 @@ import styles from "./SignUp.module.css";
 import blossom from "../assets/blossom-flower.svg";
 import googleLogo from "../assets/icons-google-logo.svg";
 import appleLogo from "../assets/icons-apple-logo.svg";
+import { Input } from "@/components/ui/Input";
 
 function SignUp() {
     return (
@@ -13,21 +14,21 @@ function SignUp() {
                     <form className={styles.form}>
                         <div className={styles.field}>
                             <label htmlFor="name">Name</label>
-                            <input id="name" type="text" placeholder="Enter your name" />
+                            <Input id="name" type="text" placeholder="Enter your name" className={styles.input} />
                         </div>
 
                         <div className={styles.field}>
                             <label htmlFor="email">Email address</label>
-                            <input id="email" type="email" placeholder="Enter your email" />
+                            <Input id="email" type="email" placeholder="Enter your email" className={styles.input} />
                         </div>
 
                         <div className={styles.field}>
                             <label htmlFor="password">Password</label>
-                            <input id="password" type="password" placeholder="Name" />
+                            <Input id="password" type="password" placeholder="Name" className={styles.input} />
                         </div>
 
                         <label className={styles.checkbox}>
-                            <input type="checkbox" />
+                            <Input type="checkbox" />
                             I agree to the <span className={styles.termsPolicy}>terms &amp; policy</span>
                         </label>
 
