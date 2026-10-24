@@ -1,0 +1,23 @@
+.page {
+  display: flex;
+  min-height: 100vh;
+  background: #ffffff;
+}
+
+.left {
+  flex: 1;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blossom {
+  height: 95vh;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
