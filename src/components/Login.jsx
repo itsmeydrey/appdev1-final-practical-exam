@@ -14,7 +14,7 @@ function Login() {
                     <form className={styles.form}>
                         <div className={styles.field}>
                             <label htmlFor="email">Email address</label>
-                            <input id="email" type="email" placeholder="Enter your email" />
+                            <input id="email" type="email" placeholder="Enter your email" className={styles.input} />
                         </div>
 
                         <div className={styles.field}>
@@ -22,7 +22,7 @@ function Login() {
                                 <label htmlFor="password">Password</label>
                                 <a href="#" className={styles.forgot}>forgot password</a>
                             </div>
-                            <input id="password" type="password" placeholder="Name" />
+                            <input id="password" type="password" placeholder="Name" className={styles.input} />
                         </div>
 
                         <label className={styles.checkbox}>

@@ -55,7 +55,7 @@
   color: var(--color-black);
 }
 
-.field input {
+.input {
   height: 40px;
   padding: 0 var(--space-md);
   border: 1px solid var(--color-border);
@@ -63,9 +63,10 @@
   font-family: var(--font-family);
   font-size: var(--font-size-sm);
   box-sizing: border-box;
+  box-shadow: none;
 }
 
-.field input::placeholder {
+.input::placeholder {
   color: var(--color-placeholder);
 }
 
@@ -86,11 +87,20 @@
 .checkbox {
   display: flex;
   align-items: center;
+  justify-content: flex-start;
   gap: var(--space-sm);
   font-family: var(--font-family);
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-medium);
   color: var(--color-black);
+}
+
+.checkbox input[type="checkbox"] {
+  width: 14px;
+  height: 14px;
+  margin: 0;
+  padding: 0;
+  flex: none;
 }
 
 .termsPolicy {
