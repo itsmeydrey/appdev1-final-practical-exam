@@ -1,16 +1,8 @@
-# React + Vite
+# APPDEV1 Final Practical Exam
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Reflection
+In this practical exam, I have learned how to convert a Figma design into a React project with a Sign Up and Login page, then added tokens and shadcn/ui at the end. 
 
-Currently, two official plugins are available:
+The hardest padt for me was matching the Figma design and setting up the Tailwind and shadcn/ui, since this is my first time implementing it in my project. Like, after I installed Tailwind, my checkbox got bigger and I had to fix it first before proceeding to the next part.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Overall, this exam helped me feel more confident in building a real page from a Figma design.
