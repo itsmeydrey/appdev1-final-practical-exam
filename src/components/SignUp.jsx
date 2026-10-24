@@ -5,11 +5,13 @@ function SignUp() {
     return (
         <div className={styles.page}>
             <section className={styles.left}>
-                {/* empty for now */}
+                <div className={styles.content}>
+                    <h1 className={styles.title}>Get Started Now</h1>
+                </div>
             </section>
 
             <section className={styles.right}>
-                <img src={blossom} alt="Blosso flower" className={styles.blossom} />
+                <img src={blossom} alt="Blossom flower" className={styles.blossom} />
             </section>
         </div>
     )
