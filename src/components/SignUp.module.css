@@ -94,6 +94,65 @@
   cursor: pointer;
 }
 
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 32px;
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  color: #000000;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #e5e5e5;
+}
+
+.social {
+  display: flex;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.socialBtn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 32px;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  background: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.socialBtn img {
+  width: 14px;
+  height: 14px;
+}
+
+.bottomText {
+  margin: 16px 0 0;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.bottomText a {
+  color: #2f5de4;
+  text-decoration: none;
+}
+
 /* Right Panel*/
 
 .right {
